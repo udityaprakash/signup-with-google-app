@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Google Sign-In Example',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -67,7 +68,7 @@ class SignInScreen extends StatelessWidget {
         ),
       ),
       bottomNavigationBar: BottomAppBar(
-        child: Center(child: Text('Made by Uditya Prakash in ❤️ for demo purpose only.')),
+        child: Center(child: Text('Made by Uditya Prakash in ❤️')),
       )
     );
   }
@@ -120,7 +121,7 @@ class UserDetailsScreen extends StatelessWidget {
         ),
       ),
       bottomNavigationBar: BottomAppBar(
-        child: Center(child: Text('Made by Uditya Prakash in ❤️ for demo purpose only.')),
+        child: Center(child: Text('Made by Uditya Prakash in ❤️')),
       )
     );
   }
